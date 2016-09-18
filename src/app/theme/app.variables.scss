@@ -25,6 +25,8 @@
 // Both iOS and MD colors can be further customized if colors
 // are different per mode.
 
+$font-path: '../../../node_modules/ionic-angular/fonts';
+
 $colors: (
   primary:    #387ef5,
   secondary:  #32db64,
