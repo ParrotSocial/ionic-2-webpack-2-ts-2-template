@@ -33,7 +33,7 @@ module.exports = {
       { test: /\.png$/, loader: 'url?limit=100000' },
       {
         test: /\.woff(2)?(\?v=.+)?$/,
-        loader: "url?limit=10000&mimetype=application/font-woff&name=build/js/[hash].[ext]"
+        loader: "url?limit=10000&mimetype=application/font-woff&name=[hash].[ext]"
       },
       // { test: /\.woff(2)?(\?v=.+)?$/, loader: "url?limit=10000&mimetype=application/font-woff" },
       { test: /\.(ttf|eot|svg)(\?v=.+)?$/, loader: 'file' },
